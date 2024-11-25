@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server src/database/db.json --port 4000"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.61.3",
@@ -15,7 +16,9 @@
     "axios": "^1.7.7",
     "create-react-router": "^7.0.1",
     "dom": "^0.0.3",
+    "json-server": "^1.0.0-beta.3",
     "lucide-react": "^0.460.0",
+    "motion": "^11.11.17",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1",

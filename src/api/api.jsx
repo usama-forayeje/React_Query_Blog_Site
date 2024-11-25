@@ -1,33 +1,82 @@
 import axios from "axios";
 
-
 const api = axios.create({
-    baseURL: "https://jsonplaceholder.typicode.com",
-    headers: {
-        "Content-Type": "application/json",
-      }
-})
+  baseURL: "http://localhost:4000",
+});
 
- const fetchPost = async (currentPage) => {
-    const res = await api.get(`/posts?_start=${currentPage}&_limit=4`)
+const fetchPost = async (currentPage) => {
+  try {
+    const res = await api.get(`/posts`, {
+      params: {
+        _start: currentPage,
+        _limit: 4,
+      },
+    });
     return res.status === 200 ? res.data : [];
-}
- const fetchPostNormal =  () => {
-   return  api.get("/posts")
-}
- const fetchWithId = async (id) => {
+  } catch (error) {
+    console.error("Error fetching paginated posts:", error.message);
+    return [];
+  }
+};
+const fetchTips = async () => {
+  try {
+    const res = await api.get("/tips", {
+    });
+    return res.status === 200 ? res.data : [];
+  } catch (error) {
+    console.error("Error fetching paginated tips:", error.message);
+    return [];
+  }
+};
+
+const fetchPostNormal = async () => {
+  try {
+    const res = await api.get("/posts");
+    return res.status === 200 ? res.data : [];
+  } catch (error) {
+    console.error("Error fetching all posts:", error.message);
+    return [];
+  }
+};
+
+const fetchWithId = async (id) => {
+  try {
+    const res = await api.get(`/posts/${id}`);
+    return res.status === 200 ? res.data : null;
+  } catch (error) {
+    console.error("Error fetching post by ID:", error.message);
+    return null;
+  }
+};
+
+const deletePost = async (id) => {
+  try {
+    const res = await api.delete(`/posts/${id}`);
+    return res.status === 200 ? true : false;
+  } catch (error) {
+    console.error("Error deleting post:", error.message);
+    return false;
+  }
+};
+const updatePost = async (id, isFavorite) => {
     try {
-       const res = await  api.get(`/posts/${id}`)
-       return res.status === 200 ? res.data : [];
+      // এখানে isFavorite এর মান টগল হবে (true/false)
+      const res = await api.patch(`/posts/${id}`, { isFavorite });
+      return res.status === 200;
     } catch (error) {
-        console.log(error);
-        
+      console.error("Error updating post:", error.message);
+      return false;
     }
-   
-}
+  };
 
-const deletePost = (id ) => {
-    return api.delete(`/posts/${id}`)
-}
 
-export {fetchPost, fetchPostNormal,fetchWithId , deletePost,}
+ const toggleFavoritePost = async (id) => {
+    const response = await fetch(`/api/posts/${id}/toggleFavorite`, {
+      method: "PATCH",
+    });
+    return response.json();
+  };
+  
+
+export { fetchPost, fetchPostNormal, fetchWithId, deletePost,toggleFavoritePost ,updatePost, fetchTips};
+export default api;
