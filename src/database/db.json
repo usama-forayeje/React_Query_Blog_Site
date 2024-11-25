@@ -9,14 +9,6 @@
       }
     },
     {
-      "id": "3",
-      "title": "Level up your CSS skills with Tailwind CSS",
-      "body": "Learn how to use utility-first CSS framework Tailwind CSS to create modern, responsive web designs with minimal effort.",
-      "isFavorite": {
-        "isFavorite": false
-      }
-    },
-    {
       "id": "4",
       "title": "Explore modern frontend development with React",
       "body": "Master React to build dynamic, single-page applications with ease. Learn component-based architecture and state management.",
@@ -131,685 +123,811 @@
       }
     }
   ],
-  "tips": 
-     [
-      {
-        "id": "1",
-        "title": "Learn backend development with Node.js",
-        "body": "Create powerful server-side applications using Node.js and manage APIs efficiently.",
-        "category": "Backend Development",
-        "icon": "💻"
-      },
-      {
-        "id": "2",
-        "title": "Improve your CSS with Tailwind CSS",
-        "body": "Use Tailwind CSS to create responsive and stylish web designs with ease.",
-        "category": "CSS",
-        "icon": "🎨"
-      },
-      {
-        "id": "3",
-        "title": "Explore React for frontend development",
-        "body": "Build interactive web applications using React, a popular JavaScript library.",
-        "category": "Frontend Development",
-        "icon": "⚛️"
-      },
-      {
-        "id": "4",
-        "title": "Add animations with Framer Motion",
-        "body": "Make your web projects come alive with beautiful animations using Framer Motion.",
-        "category": "Animation",
-        "icon": "💫"
-      },
-      {
-        "id": "5",
-        "title": "Design with Shadcn UI components",
-        "body": "Use Shadcn UI for creating clean and accessible user interface components.",
-        "category": "UI/UX",
-        "icon": "🖥️"
-      },
-      {
-        "id": "6",
-        "title": "Master MongoDB for databases",
-        "body": "Learn how to use MongoDB to store and manage data in a NoSQL database.",
-        "category": "Database",
-        "icon": "🗄️"
-      },
-      {
-        "id": "7",
-        "title": "Get started with TypeScript",
-        "body": "Add type safety to your JavaScript code with TypeScript for better maintainability.",
-        "category": "TypeScript",
-        "icon": "🔠"
-      },
-      {
-        "id": "8",
-        "title": "Simplify state management with Redux",
-        "body": "Manage state in your React apps easily with Redux and Redux Toolkit.",
-        "category": "State Management",
-        "icon": "📦"
-      },
-      {
-        "id": "9",
-        "title": "Learn best practices for UI/UX design",
-        "body": "Understand how to create intuitive and user-friendly web designs.",
-        "category": "UI/UX",
-        "icon": "🎨"
-      },
-      {
-        "id": "10",
-        "title": "Build serverless apps with AWS Lambda",
-        "body": "Learn how to build applications that run without managing servers using AWS Lambda.",
-        "category": "Cloud",
-        "icon": "☁️"
-      },
-      {
-        "id": "11",
-        "title": "Master Next.js for server-side rendering",
-        "body": "Use Next.js to build server-rendered React applications with great SEO benefits.",
-        "category": "Frameworks",
-        "icon": "⚙️"
-      },
-      {
-        "id": "12",
-        "title": "Learn GraphQL for efficient APIs",
-        "body": "Use GraphQL to query and manipulate data from your APIs with a single request.",
-        "category": "API",
-        "icon": "🔗"
-      },
-      {
-        "id": "13",
-        "title": "Create real-time apps with WebSockets",
-        "body": "Build apps that update in real time, like chat apps, using WebSockets.",
-        "category": "Real-time",
-        "icon": "🔴"
-      },
-      {
-        "id": "14",
-        "title": "Boost app speed with Vite",
-        "body": "Use Vite, a super-fast build tool, for faster development and quicker reload times.",
-        "category": "Build Tools",
-        "icon": "⚡"
-      },
-      {
-        "id": "15",
-        "title": "Understand cloud computing",
-        "body": "Learn how cloud platforms like AWS and Azure help you scale your apps easily.",
-        "category": "Cloud",
-        "icon": "☁️"
-      },
-      {
-        "id": "16",
-        "title": "Use OAuth for secure login",
-        "body": "Implement OAuth 2.0 for secure and easy authentication in your apps.",
-        "category": "Security",
-        "icon": "🔒"
-      },
-      {
-        "id": "17",
-        "title": "Add payment systems with Stripe",
-        "body": "Learn how to integrate Stripe into your app for handling online payments.",
-        "category": "Payment",
-        "icon": "💳"
-      },
-      {
-        "id": "18",
-        "title": "Optimize your app with code splitting",
-        "body": "Use code splitting to load only the code you need, improving app performance.",
-        "category": "Performance",
-        "icon": "⚙️"
-      },
-      {
-        "id": "19",
-        "title": "Learn Git for version control",
-        "body": "Use Git to track changes, manage different versions, and collaborate on projects.",
-        "category": "Version Control",
-        "icon": "🔄"
-      },
-      {
-        "id": "20",
-        "title": "Create APIs with Express.js",
-        "body": "Build APIs easily using Express.js, a fast and flexible web framework for Node.js.",
-        "category": "Backend",
-        "icon": "🌐"
-      },
-      {
-        "id": "21",
-        "title": "Understand microservices architecture",
-        "body": "Learn how to break up large apps into smaller, manageable services with microservices.",
-        "category": "Architecture",
-        "icon": "🏗️"
-      },
-      {
-        "id": "22",
-        "title": "Learn server-side rendering (SSR)",
-        "body": "Understand how to render pages on the server to improve SEO and performance.",
-        "category": "Frontend",
-        "icon": "🖥️"
-      },
-      {
-        "id": "23",
-        "title": "Master the JavaScript event loop",
-        "body": "Learn how JavaScript manages tasks in the background for smooth app performance.",
-        "category": "JavaScript",
-        "icon": "🔄"
-      },
-      {
-        "id": "24",
-        "title": "Use CSS Grid for layouts",
-        "body": "Create complex layouts with ease using the CSS Grid system for responsive designs.",
-        "category": "CSS",
-        "icon": "📐"
-      },
-      {
-        "id": "25",
-        "title": "Handle forms with React Hook Form",
-        "body": "Simplify form management and validation in React using React Hook Form.",
-        "category": "React",
-        "icon": "🔗"
-      },
-      {
-        "id": "26",
-        "title": "Containerize apps with Docker",
-        "body": "Learn how to use Docker to package your apps for easy deployment and scaling.",
-        "category": "DevOps",
-        "icon": "🐳"
-      },
-      {
-        "id": "27",
-        "title": "Scale apps with Kubernetes",
-        "body": "Manage and scale containerized apps automatically using Kubernetes.",
-        "category": "DevOps",
-        "icon": "☸️"
-      },
-      {
-        "id": "28",
-        "title": "Automate workflows with GitHub Actions",
-        "body": "Create automated workflows for testing and deploying apps using GitHub Actions.",
-        "category": "DevOps",
-        "icon": "⚙️"
-      },
-      {
-        "id": "29",
-        "title": "Build Progressive Web Apps (PWAs)",
-        "body": "Create fast and reliable web apps that work offline using PWAs.",
-        "category": "Web Development",
-        "icon": "📱"
-      },
-      {
-        "id": "30",
-        "title": "Secure your website with HTTPS",
-        "body": "Learn how to use HTTPS to protect data and secure your website connections.",
-        "category": "Security",
-        "icon": "🔒"
-      },
-      
-        
-          {
-            "id": "31",
-            "title": "Understand RESTful API design",
-            "body": "Learn how to design and build scalable REST APIs for web applications.",
-            "category": "API",
-            "icon": "🔗"
-          },
-          {
-            "id": "32",
-            "title": "Learn about serverless architecture",
-            "body": "Explore how serverless architecture can simplify deployment and scaling of apps.",
-            "category": "Architecture",
-            "icon": "🏗️"
-          },
-          {
-            "id": "33",
-            "title": "Master asynchronous JavaScript",
-            "body": "Understand how asynchronous operations work in JavaScript using callbacks, promises, and async/await.",
-            "category": "JavaScript",
-            "icon": "⏳"
-          },
-          {
-            "id": "34",
-            "title": "Build with Bootstrap for fast prototyping",
-            "body": "Use Bootstrap to quickly prototype and build responsive web applications.",
-            "category": "CSS",
-            "icon": "🧰"
-          },
-          {
-            "id": "35",
-            "title": "Create mobile apps with Flutter",
-            "body": "Use Flutter to create beautiful and natively compiled applications for mobile, web, and desktop from a single codebase.",
-            "category": "Mobile Development",
-            "icon": "📱"
-          },
-          {
-            "id": "36",
-            "title": "Understand OAuth 2.0 for secure APIs",
-            "body": "Learn about OAuth 2.0 and how to integrate it to secure your APIs.",
-            "category": "Security",
-            "icon": "🔒"
-          },
-          {
-            "id": "37",
-            "title": "Work with APIs using Postman",
-            "body": "Use Postman to test and interact with your APIs during development.",
-            "category": "API",
-            "icon": "📮"
-          },
-          {
-            "id": "38",
-            "title": "Build desktop apps with Electron",
-            "body": "Learn how to create cross-platform desktop apps using web technologies with Electron.",
-            "category": "Desktop Development",
-            "icon": "💻"
-          },
-          {
-            "id": "39",
-            "title": "Implement caching for better performance",
-            "body": "Learn how to implement caching strategies to improve the performance of your web applications.",
-            "category": "Performance",
-            "icon": "⚡"
-          },
-          {
-            "id": "40",
-            "title": "Understand machine learning basics",
-            "body": "Learn the basics of machine learning and how to start applying it to your projects.",
-            "category": "AI & Machine Learning",
-            "icon": "🤖"
-          },
-          {
-            "id": "41",
-            "title": "Design with Figma for better UI/UX",
-            "body": "Learn how to design beautiful and intuitive interfaces using Figma.",
-            "category": "UI/UX",
-            "icon": "🎨"
-          },
-          {
-            "id": "42",
-            "title": "Create cross-platform apps with React Native",
-            "body": "Build mobile applications for both iOS and Android using React Native.",
-            "category": "Mobile Development",
-            "icon": "📱"
-          },
-          {
-            "id": "43",
-            "title": "Manage project workflows with Jira",
-            "body": "Use Jira to manage and track the progress of your software development projects.",
-            "category": "Project Management",
-            "icon": "📝"
-          },
-          {
-            "id": "44",
-            "title": "Automate tasks with Python scripts",
-            "body": "Learn how to automate repetitive tasks and workflows using Python scripts.",
-            "category": "Automation",
-            "icon": "⚙️"
-          },
-          {
-            "id": "45",
-            "title": "Build APIs with FastAPI",
-            "body": "Learn how to build fast and scalable APIs using the FastAPI framework for Python.",
-            "category": "API",
-            "icon": "⚡"
-          },
-          {
-            "id": "46",
-            "title": "Handle data with Pandas in Python",
-            "body": "Master data manipulation and analysis using the Pandas library in Python.",
-            "category": "Data Science",
-            "icon": "📊"
-          },
-          {
-            "id": "47",
-            "title": "Use GitHub for version control",
-            "body": "Learn how to use GitHub for managing your source code and collaborating with others.",
-            "category": "Version Control",
-            "icon": "🔄"
-          },
-          {
-            "id": "48",
-            "title": "Design mobile apps with Adobe XD",
-            "body": "Use Adobe XD to design and prototype mobile applications with interactive features.",
-            "category": "UI/UX",
-            "icon": "🎨"
-          },
-          {
-            "id": "49",
-            "title": "Learn Docker for containerization",
-            "body": "Understand how Docker allows you to package and deploy applications using containers.",
-            "category": "DevOps",
-            "icon": "🐳"
-          },
-          {
-            "id": "50",
-            "title": "Optimize web performance with lazy loading",
-            "body": "Learn how to implement lazy loading to improve the performance of your web pages.",
-            "category": "Performance",
-            "icon": "⚡"
-          },
-          {
-            "id": "51",
-            "title": "Learn data visualization with D3.js",
-            "body": "Master data visualization by creating dynamic, interactive charts with D3.js.",
-            "category": "Data Science",
-            "icon": "📊"
-          },
-          {
-            "id": "52",
-            "title": "Master Python for web scraping",
-            "body": "Learn how to use Python to scrape data from websites for your projects.",
-            "category": "Python",
-            "icon": "🐍"
-          },
-          {
-            "id": "53",
-            "title": "Build responsive websites with CSS Flexbox",
-            "body": "Master the CSS Flexbox layout system to create responsive, flexible designs.",
-            "category": "CSS",
-            "icon": "📐"
-          },
-          {
-            "id": "54",
-            "title": "Implement Redux for state management",
-            "body": "Learn how to use Redux to manage and centralize application state in React.",
-            "category": "State Management",
-            "icon": "📦"
-          },
-          {
-            "id": "55",
-            "title": "Design with Sketch for web UI",
-            "body": "Create beautiful web user interfaces with Sketch for efficient design workflows.",
-            "category": "UI/UX",
-            "icon": "🎨"
-          },
-          {
-            "id": "56",
-            "title": "Learn React Router for navigation",
-            "body": "Understand how to implement navigation in React using React Router.",
-            "category": "React",
-            "icon": "🔗"
-          },
-          {
-            "id": "57",
-            "title": "Implement service workers for offline apps",
-            "body": "Learn how to use service workers to enable offline functionality in your web apps.",
-            "category": "Web Development",
-            "icon": "📱"
-          },
-          {
-            "id": "58",
-            "title": "Use Elasticsearch for fast search",
-            "body": "Implement Elasticsearch to enable powerful and fast full-text search in your apps.",
-            "category": "Search",
-            "icon": "🔍"
-          },
-          {
-            "id": "59",
-            "title": "Create stunning graphics with SVGs",
-            "body": "Learn how to create and manipulate scalable vector graphics (SVG) for web design.",
-            "category": "Design",
-            "icon": "🎨"
-          },
-          {
-            "id": "60",
-            "title": "Handle errors effectively with Sentry",
-            "body": "Implement Sentry to track, monitor, and resolve errors in your applications.",
-            "category": "Error Handling",
-            "icon": "🚨"
-          },
-          {
-            
-              
-                "id": "61",
-                "title": "Build real-time apps with WebSockets",
-                "body": "Learn how to implement real-time communication in your apps using WebSockets.",
-                "category": "Real-Time",
-                "icon": "🌐"
-              },
-              {
-                "id": "62",
-                "title": "Explore Progressive Web Apps (PWAs)",
-                "body": "Discover how to create Progressive Web Apps that work offline and feel like native apps.",
-                "category": "Web Development",
-                "icon": "📱"
-              },
-              {
-                "id": "63",
-                "title": "Improve UI performance with virtual lists",
-                "body": "Use virtual lists to improve the performance of apps with long lists of data.",
-                "category": "Performance",
-                "icon": "⚡"
-              },
-              {
-                "id": "64",
-                "title": "Get started with GraphQL for querying data",
-                "body": "Learn how to efficiently query data with GraphQL in your web apps.",
-                "category": "API",
-                "icon": "🔗"
-              },
-              {
-                "id": "65",
-                "title": "Create a custom design system",
-                "body": "Learn how to build a design system for scalable and consistent UI components.",
-                "category": "UI/UX",
-                "icon": "🎨"
-              },
-              {
-                "id": "66",
-                "title": "Automate tasks with GitHub Actions",
-                "body": "Streamline your development workflows by automating tasks using GitHub Actions.",
-                "category": "DevOps",
-                "icon": "⚙️"
-              },
-              {
-                "id": "67",
-                "title": "Build fast apps with Next.js",
-                "body": "Learn how to use Next.js to build fast, SEO-friendly React applications.",
-                "category": "React",
-                "icon": "⚡"
-              },
-              {
-                "id": "68",
-                "title": "Optimize images for the web",
-                "body": "Learn how to optimize images to improve web page load times and performance.",
-                "category": "Performance",
-                "icon": "🖼️"
-              },
-              {
-                "id": "69",
-                "title": "Create charts with Chart.js",
-                "body": "Build interactive and customizable charts using Chart.js for data visualization.",
-                "category": "Data Visualization",
-                "icon": "📊"
-              },
-              {
-                "id": "70",
-                "title": "Master SQL for data management",
-                "body": "Learn SQL to efficiently manage and query data from databases.",
-                "category": "Data Science",
-                "icon": "📚"
-              },
-              {
-                "id": "71",
-                "title": "Explore the world of 3D web design",
-                "body": "Learn how to integrate 3D models and animations in web design with Three.js.",
-                "category": "Design",
-                "icon": "🖥️"
-              },
-              {
-                "id": "72",
-                "title": "Manage large-scale projects with Trello",
-                "body": "Use Trello to organize and manage your team's projects and tasks.",
-                "category": "Project Management",
-                "icon": "📝"
-              },
-              {
-                "id": "73",
-                "title": "Implement infinite scroll in your app",
-                "body": "Add infinite scroll functionality to your app to load more content as users scroll.",
-                "category": "Web Development",
-                "icon": "📜"
-              },
-              {
-                "id": "74",
-                "title": "Enhance UX with microinteractions",
-                "body": "Learn how to use microinteractions to improve the user experience in your apps.",
-                "category": "UI/UX",
-                "icon": "🔄"
-              },
-              {
-                "id": "75",
-                "title": "Implement payment systems with Stripe",
-                "body": "Learn how to integrate Stripe to accept payments in your web apps.",
-                "category": "E-commerce",
-                "icon": "💳"
-              },
-              {
-                "id": "76",
-                "title": "Use WebRTC for video calls",
-                "body": "Create real-time video and voice chat apps using WebRTC technology.",
-                "category": "Real-Time",
-                "icon": "🎥"
-              },
-              {
-                "id": "77",
-                "title": "Master Firebase for backend development",
-                "body": "Learn how to use Firebase for building scalable and secure backends for web and mobile apps.",
-                "category": "Backend",
-                "icon": "🔥"
-              },
-              {
-                "id": "78",
-                "title": "Optimize your app with lazy loading",
-                "body": "Improve the load time of your app by using lazy loading for images and other resources.",
-                "category": "Performance",
-                "icon": "⏳"
-              },
-              {
-                "id": "79",
-                "title": "Work with Docker for containerized applications",
-                "body": "Learn how to package and deploy your applications with Docker containers.",
-                "category": "DevOps",
-                "icon": "🐳"
-              },
-              {
-                "id": "80",
-                "title": "Build apps with Angular",
-                "body": "Learn how to build dynamic web applications using Angular.",
-                "category": "Web Development",
-                "icon": "⚡"
-              },
-              {
-                "id": "81",
-                "title": "Understand data encryption for secure apps",
-                "body": "Learn about different encryption methods to ensure data security in your apps.",
-                "category": "Security",
-                "icon": "🔒"
-              },
-              {
-                "id": "82",
-                "title": "Create SEO-friendly websites",
-                "body": "Learn how to optimize your website for search engines to drive more traffic.",
-                "category": "SEO",
-                "icon": "🔍"
-              },
-              {
-                "id": "83",
-                "title": "Implement OAuth for secure authentication",
-                "body": "Learn how to implement OAuth for secure authentication in your web applications.",
-                "category": "Security",
-                "icon": "🔐"
-              },
-              {
-                "id": "84",
-                "title": "Manage app state with Recoil",
-                "body": "Learn how to manage global state in React apps using the Recoil state management library.",
-                "category": "React",
-                "icon": "📦"
-              },
-              {
-                "id": "85",
-                "title": "Create APIs with Django Rest Framework",
-                "body": "Learn how to build REST APIs using the Django Rest Framework.",
-                "category": "API",
-                "icon": "📡"
-              },
-              {
-                "id": "86",
-                "title": "Use Contentful for CMS",
-                "body": "Learn how to integrate Contentful as a headless CMS for managing content in your web apps.",
-                "category": "CMS",
-                "icon": "📝"
-              },
-              {
-                "id": "87",
-                "title": "Build apps with Vue.js",
-                "body": "Learn how to create reactive, fast web applications using Vue.js.",
-                "category": "Frontend",
-                "icon": "⚡"
-              },
-              {
-                "id": "88",
-                "title": "Learn Kotlin for Android development",
-                "body": "Get started with Kotlin to build Android applications that are efficient and modern.",
-                "category": "Mobile Development",
-                "icon": "📱"
-              },
-              {
-                "id": "89",
-                "title": "Automate tasks with Ansible",
-                "body": "Learn how to automate system administration tasks using Ansible.",
-                "category": "Automation",
-                "icon": "⚙️"
-              },
-              {
-                "id": "90",
-                "title": "Integrate cloud storage with AWS S3",
-                "body": "Learn how to store and manage files in the cloud using AWS S3.",
-                "category": "Cloud Computing",
-                "icon": "☁️"
-              },
-              {
-                "id": "91",
-                "title": "Get started with TypeScript",
-                "body": "Learn the basics of TypeScript and how it improves JavaScript development.",
-                "category": "JavaScript",
-                "icon": "💻"
-              },
-              {
-                "id": "92",
-                "title": "Learn mobile UI design principles",
-                "body": "Master the principles of designing mobile interfaces that are both functional and aesthetically pleasing.",
-                "category": "UI/UX",
-                "icon": "📱"
-              },
-              {
-                "id": "93",
-                "title": "Build and deploy apps with Firebase Hosting",
-                "body": "Learn how to deploy your web apps quickly and easily using Firebase Hosting.",
-                "category": "Backend",
-                "icon": "🔥"
-              },
-              {
-                "id": "94",
-                "title": "Track user activity with Google Analytics",
-                "body": "Learn how to integrate Google Analytics into your app to track user behavior and improve performance.",
-                "category": "Analytics",
-                "icon": "📊"
-              },
-              {
-                "id": "95",
-                "title": "Use Tailwind CSS for rapid styling",
-                "body": "Master the utility-first CSS framework Tailwind to build fast and responsive web designs.",
-                "category": "CSS",
-                "icon": "🎨"
-              }
-            
-          
-          
-        
-      
-      
-    ]
-  
-  
-  
+  "tips": [
+    {
+      "id": "96",
+      "title": "Implement dark mode in your app",
+      "body": "Learn how to add a dark mode feature to your app for a more modern and user-friendly experience.",
+      "category": "UI/UX",
+      "icon": "🌙"
+    },
+    {
+      "id": "97",
+      "title": "Build a responsive layout with CSS Grid",
+      "body": "Learn how to use CSS Grid to create flexible and responsive layouts that work on all screen sizes.",
+      "category": "CSS",
+      "icon": "📐"
+    },
+    {
+      "id": "98",
+      "title": "Create reusable components in React",
+      "body": "Learn how to build modular and reusable React components for better code maintainability.",
+      "category": "React",
+      "icon": "🔄"
+    },
+    {
+      "id": "99",
+      "title": "Use React Query for data fetching",
+      "body": "Simplify data fetching and state management in React using React Query for efficient API calls.",
+      "category": "React",
+      "icon": "📡"
+    },
+    {
+      "id": "100",
+      "title": "Manage state with Redux in React",
+      "body": "Learn how to manage global state in React applications using Redux for more complex applications.",
+      "category": "React",
+      "icon": "🗃️"
+    },
+    {
+      "id": "101",
+      "title": "Deploy a React app with Netlify",
+      "body": "Learn how to deploy your React application to Netlify for a fast and free hosting solution.",
+      "category": "Deployment",
+      "icon": "🌐"
+    },
+    {
+      "id": "102",
+      "title": "Add animations with Framer Motion",
+      "body": "Create smooth and interactive animations in React with the Framer Motion library.",
+      "category": "React",
+      "icon": "🎞️"
+    },
+    {
+      "id": "103",
+      "title": "Improve performance with code splitting",
+      "body": "Learn how to use code splitting in React to optimize loading time by splitting large JavaScript files.",
+      "category": "Performance",
+      "icon": "⏳"
+    },
+    {
+      "id": "104",
+      "title": "Set up a custom webpack config",
+      "body": "Learn how to configure Webpack for custom React build setups and optimize your project structure.",
+      "category": "Build Tools",
+      "icon": "⚙️"
+    },
+    {
+      "id": "105",
+      "title": "Use React Context for global state",
+      "body": "Learn how to implement React Context for managing state across your entire app without props drilling.",
+      "category": "React",
+      "icon": "🌍"
+    },
+    {
+      "id": "106",
+      "title": "Create a dynamic form with React Hook Form",
+      "body": "Build complex forms in React with validation using the React Hook Form library.",
+      "category": "React",
+      "icon": "📝"
+    },
+    {
+      "id": "107",
+      "title": "Integrate Firebase Authentication",
+      "body": "Learn how to set up Firebase authentication to handle user login and registration in your app.",
+      "category": "Backend",
+      "icon": "🔑"
+    },
+    {
+      "id": "108",
+      "title": "Add progressive web app (PWA) features",
+      "body": "Learn how to make your app installable and offline-capable by adding PWA features.",
+      "category": "Progressive Web Apps",
+      "icon": "📲"
+    },
+    {
+      "id": "109",
+      "title": "Use CSS Variables for theming",
+      "body": "Learn how to use CSS Variables to easily switch themes and manage your app's design system.",
+      "category": "CSS",
+      "icon": "🎨"
+    },
+    {
+      "id": "110",
+      "title": "Write unit tests with Jest and React Testing Library",
+      "body": "Learn how to test your React components with Jest and React Testing Library for better code quality.",
+      "category": "Testing",
+      "icon": "🧪"
+    },
+    {
+      "id": "111",
+      "title": "Create custom hooks in React",
+      "body": "Learn how to create custom React hooks to reuse logic across multiple components.",
+      "category": "React",
+      "icon": "🔧"
+    },
+    {
+      "id": "112",
+      "title": "Optimize performance with lazy loading",
+      "body": "Learn how to improve the performance of your app by lazily loading components and assets.",
+      "category": "Performance",
+      "icon": "🕹️"
+    },
+    {
+      "id": "113",
+      "title": "Integrate with third-party APIs in React",
+      "body": "Learn how to fetch data from third-party APIs and integrate it into your React app.",
+      "category": "React",
+      "icon": "🌍"
+    },
+    {
+      "id": "114",
+      "title": "Use TypeScript with React",
+      "body": "Learn how to integrate TypeScript into your React project for better type safety and autocompletion.",
+      "category": "React",
+      "icon": "💻"
+    },
+    {
+      "id": "115",
+      "title": "Build a real-time chat app with Socket.io",
+      "body": "Learn how to create a real-time chat application using Socket.io in a Node.js backend and React frontend.",
+      "category": "Backend",
+      "icon": "💬"
+    },
+    {
+      "id": "1",
+      "title": "Learn backend development with Node.js",
+      "body": "Create powerful server-side applications using Node.js and manage APIs efficiently.",
+      "category": "Backend Development",
+      "icon": "💻"
+    },
+    {
+      "id": "2",
+      "title": "Improve your CSS with Tailwind CSS",
+      "body": "Use Tailwind CSS to create responsive and stylish web designs with ease.",
+      "category": "CSS",
+      "icon": "🎨"
+    },
+    {
+      "id": "3",
+      "title": "Explore React for frontend development",
+      "body": "Build interactive web applications using React, a popular JavaScript library.",
+      "category": "Frontend Development",
+      "icon": "⚛️"
+    },
+    {
+      "id": "4",
+      "title": "Add animations with Framer Motion",
+      "body": "Make your web projects come alive with beautiful animations using Framer Motion.",
+      "category": "Animation",
+      "icon": "💫"
+    },
+    {
+      "id": "5",
+      "title": "Design with Shadcn UI components",
+      "body": "Use Shadcn UI for creating clean and accessible user interface components.",
+      "category": "UI/UX",
+      "icon": "🖥️"
+    },
+    {
+      "id": "6",
+      "title": "Master MongoDB for databases",
+      "body": "Learn how to use MongoDB to store and manage data in a NoSQL database.",
+      "category": "Database",
+      "icon": "🗄️"
+    },
+    {
+      "id": "7",
+      "title": "Get started with TypeScript",
+      "body": "Add type safety to your JavaScript code with TypeScript for better maintainability.",
+      "category": "TypeScript",
+      "icon": "🔠"
+    },
+    {
+      "id": "8",
+      "title": "Simplify state management with Redux",
+      "body": "Manage state in your React apps easily with Redux and Redux Toolkit.",
+      "category": "State Management",
+      "icon": "📦"
+    },
+    {
+      "id": "9",
+      "title": "Learn best practices for UI/UX design",
+      "body": "Understand how to create intuitive and user-friendly web designs.",
+      "category": "UI/UX",
+      "icon": "🎨"
+    },
+    {
+      "id": "10",
+      "title": "Build serverless apps with AWS Lambda",
+      "body": "Learn how to build applications that run without managing servers using AWS Lambda.",
+      "category": "Cloud",
+      "icon": "☁️"
+    },
+    {
+      "id": "11",
+      "title": "Master Next.js for server-side rendering",
+      "body": "Use Next.js to build server-rendered React applications with great SEO benefits.",
+      "category": "Frameworks",
+      "icon": "⚙️"
+    },
+    {
+      "id": "12",
+      "title": "Learn GraphQL for efficient APIs",
+      "body": "Use GraphQL to query and manipulate data from your APIs with a single request.",
+      "category": "API",
+      "icon": "🔗"
+    },
+    {
+      "id": "13",
+      "title": "Create real-time apps with WebSockets",
+      "body": "Build apps that update in real time, like chat apps, using WebSockets.",
+      "category": "Real-time",
+      "icon": "🔴"
+    },
+    {
+      "id": "14",
+      "title": "Boost app speed with Vite",
+      "body": "Use Vite, a super-fast build tool, for faster development and quicker reload times.",
+      "category": "Build Tools",
+      "icon": "⚡"
+    },
+    {
+      "id": "15",
+      "title": "Understand cloud computing",
+      "body": "Learn how cloud platforms like AWS and Azure help you scale your apps easily.",
+      "category": "Cloud",
+      "icon": "☁️"
+    },
+    {
+      "id": "16",
+      "title": "Use OAuth for secure login",
+      "body": "Implement OAuth 2.0 for secure and easy authentication in your apps.",
+      "category": "Security",
+      "icon": "🔒"
+    },
+    {
+      "id": "17",
+      "title": "Add payment systems with Stripe",
+      "body": "Learn how to integrate Stripe into your app for handling online payments.",
+      "category": "Payment",
+      "icon": "💳"
+    },
+    {
+      "id": "18",
+      "title": "Optimize your app with code splitting",
+      "body": "Use code splitting to load only the code you need, improving app performance.",
+      "category": "Performance",
+      "icon": "⚙️"
+    },
+    {
+      "id": "19",
+      "title": "Learn Git for version control",
+      "body": "Use Git to track changes, manage different versions, and collaborate on projects.",
+      "category": "Version Control",
+      "icon": "🔄"
+    },
+    {
+      "id": "20",
+      "title": "Create APIs with Express.js",
+      "body": "Build APIs easily using Express.js, a fast and flexible web framework for Node.js.",
+      "category": "Backend",
+      "icon": "🌐"
+    },
+    {
+      "id": "21",
+      "title": "Understand microservices architecture",
+      "body": "Learn how to break up large apps into smaller, manageable services with microservices.",
+      "category": "Architecture",
+      "icon": "🏗️"
+    },
+    {
+      "id": "22",
+      "title": "Learn server-side rendering (SSR)",
+      "body": "Understand how to render pages on the server to improve SEO and performance.",
+      "category": "Frontend",
+      "icon": "🖥️"
+    },
+    {
+      "id": "23",
+      "title": "Master the JavaScript event loop",
+      "body": "Learn how JavaScript manages tasks in the background for smooth app performance.",
+      "category": "JavaScript",
+      "icon": "🔄"
+    },
+    {
+      "id": "24",
+      "title": "Use CSS Grid for layouts",
+      "body": "Create complex layouts with ease using the CSS Grid system for responsive designs.",
+      "category": "CSS",
+      "icon": "📐"
+    },
+    {
+      "id": "25",
+      "title": "Handle forms with React Hook Form",
+      "body": "Simplify form management and validation in React using React Hook Form.",
+      "category": "React",
+      "icon": "🔗"
+    },
+    {
+      "id": "26",
+      "title": "Containerize apps with Docker",
+      "body": "Learn how to use Docker to package your apps for easy deployment and scaling.",
+      "category": "DevOps",
+      "icon": "🐳"
+    },
+    {
+      "id": "27",
+      "title": "Scale apps with Kubernetes",
+      "body": "Manage and scale containerized apps automatically using Kubernetes.",
+      "category": "DevOps",
+      "icon": "☸️"
+    },
+    {
+      "id": "28",
+      "title": "Automate workflows with GitHub Actions",
+      "body": "Create automated workflows for testing and deploying apps using GitHub Actions.",
+      "category": "DevOps",
+      "icon": "⚙️"
+    },
+    {
+      "id": "29",
+      "title": "Build Progressive Web Apps (PWAs)",
+      "body": "Create fast and reliable web apps that work offline using PWAs.",
+      "category": "Web Development",
+      "icon": "📱"
+    },
+    {
+      "id": "30",
+      "title": "Secure your website with HTTPS",
+      "body": "Learn how to use HTTPS to protect data and secure your website connections.",
+      "category": "Security",
+      "icon": "🔒"
+    },
+    {
+      "id": "31",
+      "title": "Understand RESTful API design",
+      "body": "Learn how to design and build scalable REST APIs for web applications.",
+      "category": "API",
+      "icon": "🔗"
+    },
+    {
+      "id": "32",
+      "title": "Learn about serverless architecture",
+      "body": "Explore how serverless architecture can simplify deployment and scaling of apps.",
+      "category": "Architecture",
+      "icon": "🏗️"
+    },
+    {
+      "id": "33",
+      "title": "Master asynchronous JavaScript",
+      "body": "Understand how asynchronous operations work in JavaScript using callbacks, promises, and async/await.",
+      "category": "JavaScript",
+      "icon": "⏳"
+    },
+    {
+      "id": "34",
+      "title": "Build with Bootstrap for fast prototyping",
+      "body": "Use Bootstrap to quickly prototype and build responsive web applications.",
+      "category": "CSS",
+      "icon": "🧰"
+    },
+    {
+      "id": "35",
+      "title": "Create mobile apps with Flutter",
+      "body": "Use Flutter to create beautiful and natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "category": "Mobile Development",
+      "icon": "📱"
+    },
+    {
+      "id": "36",
+      "title": "Understand OAuth 2.0 for secure APIs",
+      "body": "Learn about OAuth 2.0 and how to integrate it to secure your APIs.",
+      "category": "Security",
+      "icon": "🔒"
+    },
+    {
+      "id": "37",
+      "title": "Work with APIs using Postman",
+      "body": "Use Postman to test and interact with your APIs during development.",
+      "category": "API",
+      "icon": "📮"
+    },
+    {
+      "id": "38",
+      "title": "Build desktop apps with Electron",
+      "body": "Learn how to create cross-platform desktop apps using web technologies with Electron.",
+      "category": "Desktop Development",
+      "icon": "💻"
+    },
+    {
+      "id": "39",
+      "title": "Implement caching for better performance",
+      "body": "Learn how to implement caching strategies to improve the performance of your web applications.",
+      "category": "Performance",
+      "icon": "⚡"
+    },
+    {
+      "id": "40",
+      "title": "Understand machine learning basics",
+      "body": "Learn the basics of machine learning and how to start applying it to your projects.",
+      "category": "AI & Machine Learning",
+      "icon": "🤖"
+    },
+    {
+      "id": "41",
+      "title": "Design with Figma for better UI/UX",
+      "body": "Learn how to design beautiful and intuitive interfaces using Figma.",
+      "category": "UI/UX",
+      "icon": "🎨"
+    },
+    {
+      "id": "42",
+      "title": "Create cross-platform apps with React Native",
+      "body": "Build mobile applications for both iOS and Android using React Native.",
+      "category": "Mobile Development",
+      "icon": "📱"
+    },
+    {
+      "id": "43",
+      "title": "Manage project workflows with Jira",
+      "body": "Use Jira to manage and track the progress of your software development projects.",
+      "category": "Project Management",
+      "icon": "📝"
+    },
+    {
+      "id": "44",
+      "title": "Automate tasks with Python scripts",
+      "body": "Learn how to automate repetitive tasks and workflows using Python scripts.",
+      "category": "Automation",
+      "icon": "⚙️"
+    },
+    {
+      "id": "45",
+      "title": "Build APIs with FastAPI",
+      "body": "Learn how to build fast and scalable APIs using the FastAPI framework for Python.",
+      "category": "API",
+      "icon": "⚡"
+    },
+    {
+      "id": "46",
+      "title": "Handle data with Pandas in Python",
+      "body": "Master data manipulation and analysis using the Pandas library in Python.",
+      "category": "Data Science",
+      "icon": "📊"
+    },
+    {
+      "id": "47",
+      "title": "Use GitHub for version control",
+      "body": "Learn how to use GitHub for managing your source code and collaborating with others.",
+      "category": "Version Control",
+      "icon": "🔄"
+    },
+    {
+      "id": "48",
+      "title": "Design mobile apps with Adobe XD",
+      "body": "Use Adobe XD to design and prototype mobile applications with interactive features.",
+      "category": "UI/UX",
+      "icon": "🎨"
+    },
+    {
+      "id": "49",
+      "title": "Learn Docker for containerization",
+      "body": "Understand how Docker allows you to package and deploy applications using containers.",
+      "category": "DevOps",
+      "icon": "🐳"
+    },
+    {
+      "id": "50",
+      "title": "Optimize web performance with lazy loading",
+      "body": "Learn how to implement lazy loading to improve the performance of your web pages.",
+      "category": "Performance",
+      "icon": "⚡"
+    },
+    {
+      "id": "51",
+      "title": "Learn data visualization with D3.js",
+      "body": "Master data visualization by creating dynamic, interactive charts with D3.js.",
+      "category": "Data Science",
+      "icon": "📊"
+    },
+    {
+      "id": "52",
+      "title": "Master Python for web scraping",
+      "body": "Learn how to use Python to scrape data from websites for your projects.",
+      "category": "Python",
+      "icon": "🐍"
+    },
+    {
+      "id": "53",
+      "title": "Build responsive websites with CSS Flexbox",
+      "body": "Master the CSS Flexbox layout system to create responsive, flexible designs.",
+      "category": "CSS",
+      "icon": "📐"
+    },
+    {
+      "id": "54",
+      "title": "Implement Redux for state management",
+      "body": "Learn how to use Redux to manage and centralize application state in React.",
+      "category": "State Management",
+      "icon": "📦"
+    },
+    {
+      "id": "55",
+      "title": "Design with Sketch for web UI",
+      "body": "Create beautiful web user interfaces with Sketch for efficient design workflows.",
+      "category": "UI/UX",
+      "icon": "🎨"
+    },
+    {
+      "id": "56",
+      "title": "Learn React Router for navigation",
+      "body": "Understand how to implement navigation in React using React Router.",
+      "category": "React",
+      "icon": "🔗"
+    },
+    {
+      "id": "57",
+      "title": "Implement service workers for offline apps",
+      "body": "Learn how to use service workers to enable offline functionality in your web apps.",
+      "category": "Web Development",
+      "icon": "📱"
+    },
+    {
+      "id": "58",
+      "title": "Use Elasticsearch for fast search",
+      "body": "Implement Elasticsearch to enable powerful and fast full-text search in your apps.",
+      "category": "Search",
+      "icon": "🔍"
+    },
+    {
+      "id": "59",
+      "title": "Create stunning graphics with SVGs",
+      "body": "Learn how to create and manipulate scalable vector graphics (SVG) for web design.",
+      "category": "Design",
+      "icon": "🎨"
+    },
+    {
+      "id": "60",
+      "title": "Handle errors effectively with Sentry",
+      "body": "Implement Sentry to track, monitor, and resolve errors in your applications.",
+      "category": "Error Handling",
+      "icon": "🚨"
+    },
+    {
+      "id": "61",
+      "title": "Build real-time apps with WebSockets",
+      "body": "Learn how to implement real-time communication in your apps using WebSockets.",
+      "category": "Real-Time",
+      "icon": "🌐"
+    },
+    {
+      "id": "62",
+      "title": "Explore Progressive Web Apps (PWAs)",
+      "body": "Discover how to create Progressive Web Apps that work offline and feel like native apps.",
+      "category": "Web Development",
+      "icon": "📱"
+    },
+    {
+      "id": "63",
+      "title": "Improve UI performance with virtual lists",
+      "body": "Use virtual lists to improve the performance of apps with long lists of data.",
+      "category": "Performance",
+      "icon": "⚡"
+    },
+    {
+      "id": "64",
+      "title": "Get started with GraphQL for querying data",
+      "body": "Learn how to efficiently query data with GraphQL in your web apps.",
+      "category": "API",
+      "icon": "🔗"
+    },
+    {
+      "id": "65",
+      "title": "Create a custom design system",
+      "body": "Learn how to build a design system for scalable and consistent UI components.",
+      "category": "UI/UX",
+      "icon": "🎨"
+    },
+    {
+      "id": "66",
+      "title": "Automate tasks with GitHub Actions",
+      "body": "Streamline your development workflows by automating tasks using GitHub Actions.",
+      "category": "DevOps",
+      "icon": "⚙️"
+    },
+    {
+      "id": "67",
+      "title": "Build fast apps with Next.js",
+      "body": "Learn how to use Next.js to build fast, SEO-friendly React applications.",
+      "category": "React",
+      "icon": "⚡"
+    },
+    {
+      "id": "68",
+      "title": "Optimize images for the web",
+      "body": "Learn how to optimize images to improve web page load times and performance.",
+      "category": "Performance",
+      "icon": "🖼️"
+    },
+    {
+      "id": "69",
+      "title": "Create charts with Chart.js",
+      "body": "Build interactive and customizable charts using Chart.js for data visualization.",
+      "category": "Data Visualization",
+      "icon": "📊"
+    },
+    {
+      "id": "70",
+      "title": "Master SQL for data management",
+      "body": "Learn SQL to efficiently manage and query data from databases.",
+      "category": "Data Science",
+      "icon": "📚"
+    },
+    {
+      "id": "71",
+      "title": "Explore the world of 3D web design",
+      "body": "Learn how to integrate 3D models and animations in web design with Three.js.",
+      "category": "Design",
+      "icon": "🖥️"
+    },
+    {
+      "id": "72",
+      "title": "Manage large-scale projects with Trello",
+      "body": "Use Trello to organize and manage your team's projects and tasks.",
+      "category": "Project Management",
+      "icon": "📝"
+    },
+    {
+      "id": "73",
+      "title": "Implement infinite scroll in your app",
+      "body": "Add infinite scroll functionality to your app to load more content as users scroll.",
+      "category": "Web Development",
+      "icon": "📜"
+    },
+    {
+      "id": "74",
+      "title": "Enhance UX with microinteractions",
+      "body": "Learn how to use microinteractions to improve the user experience in your apps.",
+      "category": "UI/UX",
+      "icon": "🔄"
+    },
+    {
+      "id": "75",
+      "title": "Implement payment systems with Stripe",
+      "body": "Learn how to integrate Stripe to accept payments in your web apps.",
+      "category": "E-commerce",
+      "icon": "💳"
+    },
+    {
+      "id": "76",
+      "title": "Use WebRTC for video calls",
+      "body": "Create real-time video and voice chat apps using WebRTC technology.",
+      "category": "Real-Time",
+      "icon": "🎥"
+    },
+    {
+      "id": "77",
+      "title": "Master Firebase for backend development",
+      "body": "Learn how to use Firebase for building scalable and secure backends for web and mobile apps.",
+      "category": "Backend",
+      "icon": "🔥"
+    },
+    {
+      "id": "78",
+      "title": "Optimize your app with lazy loading",
+      "body": "Improve the load time of your app by using lazy loading for images and other resources.",
+      "category": "Performance",
+      "icon": "⏳"
+    },
+    {
+      "id": "79",
+      "title": "Work with Docker for containerized applications",
+      "body": "Learn how to package and deploy your applications with Docker containers.",
+      "category": "DevOps",
+      "icon": "🐳"
+    },
+    {
+      "id": "80",
+      "title": "Build apps with Angular",
+      "body": "Learn how to build dynamic web applications using Angular.",
+      "category": "Web Development",
+      "icon": "⚡"
+    },
+    {
+      "id": "81",
+      "title": "Understand data encryption for secure apps",
+      "body": "Learn about different encryption methods to ensure data security in your apps.",
+      "category": "Security",
+      "icon": "🔒"
+    },
+    {
+      "id": "82",
+      "title": "Create SEO-friendly websites",
+      "body": "Learn how to optimize your website for search engines to drive more traffic.",
+      "category": "SEO",
+      "icon": "🔍"
+    },
+    {
+      "id": "83",
+      "title": "Implement OAuth for secure authentication",
+      "body": "Learn how to implement OAuth for secure authentication in your web applications.",
+      "category": "Security",
+      "icon": "🔐"
+    },
+    {
+      "id": "84",
+      "title": "Manage app state with Recoil",
+      "body": "Learn how to manage global state in React apps using the Recoil state management library.",
+      "category": "React",
+      "icon": "📦"
+    },
+    {
+      "id": "85",
+      "title": "Create APIs with Django Rest Framework",
+      "body": "Learn how to build REST APIs using the Django Rest Framework.",
+      "category": "API",
+      "icon": "📡"
+    },
+    {
+      "id": "86",
+      "title": "Use Contentful for CMS",
+      "body": "Learn how to integrate Contentful as a headless CMS for managing content in your web apps.",
+      "category": "CMS",
+      "icon": "📝"
+    },
+    {
+      "id": "87",
+      "title": "Build apps with Vue.js",
+      "body": "Learn how to create reactive, fast web applications using Vue.js.",
+      "category": "Frontend",
+      "icon": "⚡"
+    },
+    {
+      "id": "88",
+      "title": "Learn Kotlin for Android development",
+      "body": "Get started with Kotlin to build Android applications that are efficient and modern.",
+      "category": "Mobile Development",
+      "icon": "📱"
+    },
+    {
+      "id": "89",
+      "title": "Automate tasks with Ansible",
+      "body": "Learn how to automate system administration tasks using Ansible.",
+      "category": "Automation",
+      "icon": "⚙️"
+    },
+    {
+      "id": "90",
+      "title": "Integrate cloud storage with AWS S3",
+      "body": "Learn how to store and manage files in the cloud using AWS S3.",
+      "category": "Cloud Computing",
+      "icon": "☁️"
+    },
+    {
+      "id": "91",
+      "title": "Get started with TypeScript",
+      "body": "Learn the basics of TypeScript and how it improves JavaScript development.",
+      "category": "JavaScript",
+      "icon": "💻"
+    },
+    {
+      "id": "92",
+      "title": "Learn mobile UI design principles",
+      "body": "Master the principles of designing mobile interfaces that are both functional and aesthetically pleasing.",
+      "category": "UI/UX",
+      "icon": "📱"
+    },
+    {
+      "id": "93",
+      "title": "Build and deploy apps with Firebase Hosting",
+      "body": "Learn how to deploy your web apps quickly and easily using Firebase Hosting.",
+      "category": "Backend",
+      "icon": "🔥"
+    },
+    {
+      "id": "94",
+      "title": "Track user activity with Google Analytics",
+      "body": "Learn how to integrate Google Analytics into your app to track user behavior and improve performance.",
+      "category": "Analytics",
+      "icon": "📊"
+    },
+    {
+      "id": "95",
+      "title": "Use Tailwind CSS for rapid styling",
+      "body": "Master the utility-first CSS framework Tailwind to build fast and responsive web designs.",
+      "category": "CSS",
+      "icon": "🎨"
+    }
+  ]
 }
