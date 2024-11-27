@@ -16,9 +16,12 @@ function Contact() {
   } = useInfiniteQuery({
     queryKey: ["tips"],
     queryFn: fetchTips, // Fetch paginated data
-    getNextPageParam: (lastPage, allPages) => {
-      // Correctly check the length of `lastPage.data`
-      return lastPage.data.length === 9 ? allPages.length + 1 : undefined;
+    initialPageParam: 0,
+    getNextPageParam: (lastPage, allPages, lastPageParam) => {
+      if (lastPage.length === 0) {
+        return undefined
+      }
+      return lastPageParam + 1
     },
   });
 
@@ -37,6 +40,8 @@ function Contact() {
   //   window.addEventListener("scroll", handleScroll);
   //   return () => window.removeEventListener("scroll", handleScroll);
   // }, [hasNextPage]);
+
+
 
 
   // {!// infinite scroll by react-intersection-observer}
