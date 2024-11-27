@@ -24,7 +24,7 @@ function Details() {
     onSuccess: () => {
         console.log("Post deleted successfully!");
         queryClint.invalidateQueries(["posts"]);
-        navigate("/"); // হোমে রিডাইরেক্ট
+        navigate("/"); 
     },
   });
 
@@ -45,7 +45,7 @@ function Details() {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
-        <p className="text-blue-600 text-2xl animate-pulse">Loading...</p>
+        <p className="text-2xl text-blue-600 animate-pulse">Loading...</p>
       </div>
     );
   }
@@ -53,7 +53,7 @@ function Details() {
   if (isError) {
     return (
       <div className="flex items-center justify-center min-h-screen">
-        <p className="text-red-600 text-2xl">
+        <p className="text-2xl text-red-600">
           Error: {error.message || "Something went wrong!"}
         </p>
       </div>
@@ -61,9 +61,9 @@ function Details() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
-      <div className="max-w-2xl bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 relative">
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200 mb-4">
+    <div className="flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100 dark:bg-gray-900">
+      <div className="relative max-w-2xl p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+        <h1 className="mb-4 text-3xl font-bold text-gray-800 dark:text-gray-200">
           Post Details
         </h1>
         <div className="space-y-4">
@@ -88,17 +88,17 @@ function Details() {
         </div>
 
         {/* Edit and Delete Icons */}
-        <div className="absolute top-6 right-6 flex space-x-4">
+        <div className="absolute flex space-x-4 top-6 right-6">
           <button
             onClick={handleEdit}
-            className="p-2 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105"
+            className="p-2 text-white transition-transform transform bg-blue-600 rounded-full shadow-md hover:bg-blue-700 hover:scale-105"
             title="Edit Post"
           >
             <Edit className="text-lg" />
           </button>
           <button
             onClick={handleDelete}
-            className="p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-700 transition-transform transform hover:scale-105"
+            className="p-2 text-white transition-transform transform bg-red-600 rounded-full shadow-md hover:bg-red-700 hover:scale-105"
             title="Delete Post"
           >
             <Trash2 className="text-lg" />
@@ -107,7 +107,7 @@ function Details() {
 
         <NavLink
           to="/"
-          className="inline-block mt-6 px-6 py-2 bg-blue-600 text-white text-lg font-medium rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg transition duration-300"
+          className="inline-block px-6 py-2 mt-6 text-lg font-medium text-white transition duration-300 bg-blue-600 rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg"
         >
           Go to Home
         </NavLink>

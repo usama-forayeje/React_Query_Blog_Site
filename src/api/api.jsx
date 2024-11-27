@@ -18,16 +18,22 @@ const fetchPost = async (currentPage) => {
     return [];
   }
 };
-const fetchTips = async () => {
+const fetchTips = async ({ pageParam = 1 }) => {
   try {
-    const res = await api.get("/tips", {
-    });
-    return res.status === 200 ? res.data : [];
-  } catch (error) {
+    const res = await api.get(`/tips?per_page=10&page=${pageParam}`); // Adjust `_page` and `_limit` for pagination
+    return {
+      data: res.data, // Current page data
+
+    };
+  }
+   catch (error) {
     console.error("Error fetching paginated tips:", error.message);
-    return [];
+    return { data: [], nextPage: undefined };
   }
 };
+
+
+
 
 const fetchPostNormal = async () => {
   try {
