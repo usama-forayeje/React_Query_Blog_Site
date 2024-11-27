@@ -1,5 +1,5 @@
-import jsonServer from "json-server";
-import cors from "cors";
+const jsonServer = require("json-server");
+const cors = require("cors");
 
 const server = jsonServer.create();
 const router = jsonServer.router("./src/database/db.json");
