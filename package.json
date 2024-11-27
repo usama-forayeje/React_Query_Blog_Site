@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server src/database/db.json --port 4000",
-    "start": "node src/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.61.3",
