@@ -7,7 +7,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server src/database/db.json --port 4000",
+    "server": "json-server src/database/db.json --port 3100",
     "start": "node server.js"
   },
   "dependencies": {
