@@ -1,126 +1,112 @@
 {
   "posts": [
     {
+      "id": "1",
+      "title": "Discover the beauty of coding with seamless designs",
+      "body": "Learn how to build scalable and beautiful user interfaces while mastering React Query for data fetching and mutations. Perfect for developers aiming to create high-level designs.",
+      "isFavorite": false
+    },
+    {
       "id": "2",
       "title": "Master the art of backend development with Node.js",
       "body": "Build scalable APIs and learn about asynchronous programming with Node.js. Create robust server-side applications effortlessly.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
+    },
+    {
+      "id": "3",
+      "title": "Level up your CSS skills with Tailwind CSS",
+      "body": "Learn how to use utility-first CSS framework Tailwind CSS to create modern, responsive web designs with minimal effort.",
+      "isFavorite": false
     },
     {
       "id": "4",
       "title": "Explore modern frontend development with React",
       "body": "Master React to build dynamic, single-page applications with ease. Learn component-based architecture and state management.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     },
     {
       "id": "5",
       "title": "Unleash the power of animations with Framer Motion",
       "body": "Discover how to add delightful animations to your web projects using Framer Motion, a React animation library.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     },
     {
       "id": "6",
       "title": "Craft amazing UI components with Shadcn UI",
       "body": "Learn to integrate Shadcn UI components to create high-quality, accessible, and visually stunning designs.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     },
     {
       "id": "7",
       "title": "Dive into database management with MongoDB",
       "body": "Learn how to use MongoDB, a NoSQL database, for storing and querying your application data efficiently.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     },
     {
       "id": "8",
       "title": "Supercharge your web apps with TypeScript",
       "body": "Learn how to add type safety to your JavaScript code using TypeScript, making your projects more maintainable.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     },
     {
       "id": "9",
       "title": "Effortless state management with Redux Toolkit",
       "body": "Learn Redux Toolkit to simplify state management in your React applications while improving performance.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     },
     {
       "id": "10",
       "title": "Discover best practices for UI/UX design",
       "body": "Understand the principles of user-centered design and how to create intuitive user experiences.",
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "11",
       "title": "Understand serverless architecture with AWS Lambda",
       "body": "Learn how to use AWS Lambda to build serverless applications that are scalable and cost-efficient.",
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "12",
       "title": "Explore the future of web development with Next.js",
       "body": "Build server-rendered React applications effortlessly with Next.js. Learn about its advanced routing and SEO benefits.",
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "13",
       "title": "Learn the fundamentals of GraphQL",
       "body": "Understand how to use GraphQL to query and mutate data with flexible and efficient APIs.",
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "14",
       "title": "Build real-time apps with WebSockets",
       "body": "Master WebSockets to add real-time features to your web applications, such as chat or live notifications.",
-      "isFavorite": true
+      "isFavorite": false
+    },
+    {
+      "id": "15",
+      "title": "Get started with testing using Jest",
+      "body": "Learn how to write unit and integration tests for your JavaScript applications using Jest.",
+      "isFavorite": false
     },
     {
       "id": "16",
       "title": "Create blazing-fast apps with Vite",
       "body": "Learn about Vite, a lightning-fast build tool for modern JavaScript and React projects.",
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "17",
       "title": "Understand the basics of cloud computing",
       "body": "Explore how cloud platforms like AWS, Azure, and Google Cloud can enhance your application infrastructure.",
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "18",
       "title": "Modern authentication with OAuth 2.0",
       "body": "Learn how to implement secure authentication and authorization in your web applications using OAuth 2.0.",
-      "isFavorite": {
-        "isFavorite": false
-      }
-    },
-    {
-      "id": "19",
-      "title": "Integrate payment gateways with Stripe",
-      "body": "Understand how to use Stripe to securely handle payments in your e-commerce applications.",
-      "isFavorite": {
-        "isFavorite": false
-      }
-    },
-    {
-      "id": "20",
-      "title": "Improve performance with code-splitting",
-      "body": "Learn how to use code-splitting techniques in React to improve application performance and user experience.",
-      "isFavorite": {
-        "isFavorite": false
-      }
+      "isFavorite": false
     }
   ],
   "tips": [

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = axios.create({
+ const api = axios.create({
   baseURL: "http://localhost:4000",
 });
 
@@ -18,20 +18,21 @@ const fetchPost = async (currentPage) => {
     return [];
   }
 };
+
+
 const fetchTips = async ({ pageParam = 1 }) => {
   try {
-    const res = await api.get(`/tips?per_page=10&page=${pageParam}`); // Adjust `_page` and `_limit` for pagination
+    const res = await api.get(
+      `/tips?_limit=9&_page=${pageParam}`
+    );
     return {
       data: res.data, // Current page data
-
     };
-  }
-   catch (error) {
+  } catch (error) {
     console.error("Error fetching paginated tips:", error.message);
-    return { data: [], nextPage: undefined };
+    return { data: [] }; // Return empty data in case of error
   }
 };
-
 
 
 
@@ -64,25 +65,7 @@ const deletePost = async (id) => {
     return false;
   }
 };
-const updatePost = async (id, isFavorite) => {
-    try {
-      // এখানে isFavorite এর মান টগল হবে (true/false)
-      const res = await api.patch(`/posts/${id}`, { isFavorite });
-      return res.status === 200;
-    } catch (error) {
-      console.error("Error updating post:", error.message);
-      return false;
-    }
-  };
 
 
- const toggleFavoritePost = async (id) => {
-    const response = await fetch(`/api/posts/${id}/toggleFavorite`, {
-      method: "PATCH",
-    });
-    return response.json();
-  };
-  
-
-export { fetchPost, fetchPostNormal, fetchWithId, deletePost,toggleFavoritePost ,updatePost, fetchTips};
+export { fetchPost, fetchPostNormal, fetchWithId, deletePost , fetchTips};
 export default api;
